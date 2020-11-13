@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>singlePage</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/shoppingCart.css" />
-    <title>Lesson2</title>
+    <link rel="stylesheet" href="css/singlePage.css" />
   </head>
   <body>
     <header>
@@ -63,127 +63,70 @@
       </div>
     </div>
     <!--  -->
-    <div class="ProductDetails container">
-      <div class="ProductDetails__title">
-        <div>Product details</div>
-        <div>Unite price</div>
-        <div>Quantity</div>
-        <div>Shipping</div>
-        <div>Subtotal</div>
-        <div>Action</div>
+    <div class="modelWrap">
+      <div class="modelSlider">
+        <img src="images/lesson_3/slider1.jpg" alt="" />
+        <div class="modelSliderLeftArrow">
+          <i class="fas fa-angle-left"></i>
+        </div>
+        <div class="modelSliderRightArrow">
+          <i class="fas fa-angle-right"></i>
+        </div>
       </div>
-      <section class="shoppingRow">
-        <div class="shoppingRow__detail">
-          <img src="images/product1.jpg" alt="" />
-          <div class="detail__text">
-            <h1>Mango People T-shirt</h1>
-            <p>
-              Color:
-              <span>Red</span>
-            </p>
-            <p>
-              Size:
-              <span>XII</span>
-            </p>
+      <div class="modelDataWrap">
+        <div class="modelData">
+          <div class="modelHeader">Women collection</div>
+          <div class="modelProductHeader">Moschino Cheap And Chic</div>
+          <div class="modelProductDesc">
+            Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
+            collaborative architectures before cutting-edge services. Completely visualize parallel core competencies
+            rather than exceptional portals.
           </div>
-        </div>
-        <div class="productPrice size">$150</div>
-        <div class="productQty size">
-          <input type="text" value="2" />
-        </div>
-        <div class="productShipping size">FREE</div>
-        <div class="productSubtotal size">$300</div>
-        <div class="productAction size">
-          <i class="fas fa-times-circle"></i>
-        </div>
-      </section>
-      <section class="shoppingRow">
-        <div class="shoppingRow__detail">
-          <img src="images/product2.jpg" alt="" />
-          <div class="detail__text">
-            <h1>Mango People T-shirt</h1>
-            <p>
-              Color:
-              <span>Red</span>
-            </p>
-            <p>
-              Size:
-              <span>XII</span>
-            </p>
+          <div class="modelProductDetails">
+            <div>
+              <span class="modelProductParam">Material:</span>
+              <span class="modelProductValue">Cotton</span>
+            </div>
+            <div>
+              <span class="modelProductParam">Designer:</span>
+              <span class="modelProductValue">Binburhan</span>
+            </div>
           </div>
+          <div class="modelProductPrice">$561</div>
+          <form class="modelProductOrder">
+            <div class="modelProductOrderUnit">
+              <label for="">Choose color</label>
+              <div class="modelProductSelectWrap">
+                <i class="fas fa-chevron-down"></i>
+                <div class="modelProductColorValue"></div>
+                <select class="modelProductColor" name="" id="">
+                  <option value="">Red</option>
+                  <option value="">Green</option>
+                  <option value="">Blue</option>
+                </select>
+              </div>
+            </div>
+            <div class="modelProductOrderUnit">
+              <label for="">Choose size</label>
+              <div class="modelProductSelectWrap">
+                <i class="fas fa-chevron-down"></i>
+                <select name="" id="">
+                  <option value="">XXL</option>
+                  <option value="">XL</option>
+                  <option value="">L</option>
+                </select>
+              </div>
+            </div>
+            <div class="modelProductOrderUnit">
+              <label for="">Quantity</label>
+              <input type="text" value="2" />
+            </div>
+            <button>
+              <img src="images/cartPink.png" alt="" />
+              Add to Cart
+            </button>
+          </form>
         </div>
-        <div class="productPrice size">$150</div>
-        <div class="productQty size">
-          <input type="text" value="2" />
-        </div>
-        <div class="productShipping size">FREE</div>
-        <div class="productSubtotal size">$300</div>
-        <div class="productAction size">
-          <i class="fas fa-times-circle"></i>
-        </div>
-      </section>
-      <section class="shoppingRow">
-        <div class="shoppingRow__detail">
-          <img src="images/product3.jpg" alt="" />
-          <div class="detail__text">
-            <h1>Mango People T-shirt</h1>
-            <p>
-              Color:
-              <span>Red</span>
-            </p>
-            <p>
-              Size:
-              <span>XII</span>
-            </p>
-          </div>
-        </div>
-        <div class="productPrice size">$150</div>
-        <div class="productQty size">
-          <input type="text" value="2" />
-        </div>
-        <div class="productShipping size">FREE</div>
-        <div class="productSubtotal size">$300</div>
-        <div class="productAction size">
-          <i class="fas fa-times-circle"></i>
-        </div>
-      </section>
-      <div class="shoppingGridRow"></div>
-      <div class="shoppingGridRow"></div>
-    </div>
-    <!--  -->
-    <div class="shoppingBtn container">
-      <button>CLEAR SHOPPING CART</button>
-      <button>CONTINUE SHOPPING</button>
-    </div>
-    <!--  -->
-    <div class="shipping container">
-      <form class="shippingAdress">
-        <h2>Shipping Adress</h2>
-        <select name="" id="">
-          <option>Bangladesh</option>
-          <option>Russia</option>
-          <option>Australia</option>
-        </select>
-        <input type="text" placeholder="State" />
-        <input required type="number" placeholder="Postcode / Zip" />
-        <button>Get a quote</button>
-      </form>
-      <form class="shippingDiscount">
-        <h2>Coupon discount</h2>
-        <label for="state">Enter your coupon code if you have one</label>
-        <input id="state" type="text" placeholder="State" />
-        <button>Apply coupon</button>
-      </form>
-      <div class="shippingTotal">
-        <div class="shippingTotal__sub">
-          <span>Sub total</span>
-          <span>$900</span>
-        </div>
-        <div class="shippingTotal__grand">
-          <span>Grand total</span>
-          <span>$900</span>
-        </div>
-        <button>Proceed to checkout</button>
       </div>
     </div>
     <!--  -->
