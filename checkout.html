@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/headerAndFooter.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container mediaContent">
+          <div class="header__brand">
+            BRAN
+            <span>D</span>
+          </div>
+          <div class="header__search">
+            <div class="search__browse">
+              Browse
+              <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </div>
+            <input class="search__input" type="text" placeholder="Search for Item..." />
+            <button class="search__btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </div>
+          <div class="header__cart">
+            <img class="cart__img" src="images/cart.png" alt="" />
+            <button class="cart__btn">
+              My Account
+              <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <nav class="topNav">
+        <div class="topNav__links container">
+          <a href="index.html">Home</a>
+          <a href="#">Man</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Accoseriese</a>
+          <a href="#">Featured</a>
+          <a href="#">Hot Deals</a>
+        </div>
+      </nav>
+    </header>
+    <!--  -->
+    <div class="newArrivalsWrap">
+      <div class="newArrivals container">
+        <h1>newArrivals</h1>
+        <nav>
+          <a href="">Home</a>
+          <span>/</span>
+          <a href="">Men</a>
+          <span>/</span>
+          <a href="">New arrivals</a>
+        </nav>
+      </div>
+    </div>
+    <!--  -->
+    <div class="checkout container">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div
+            class="navTitle"
+            id="headingOne"
+            aria-controls="collapseOne"
+            data-target="#collapseOne"
+            data-toggle="collapse"
+            aria-expanded="false"
+          >
+            Category
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse show navText"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="row">
+              <div class="col-12 col-md-12 col-sm-12 col-lg-6 leftCol">
+                <div class="categoryTitle">CHECK AS A GUEST OR REGISTER</div>
+                <div class="categoryText">Register with us for future convenience</div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios1"
+                    value="option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="exampleRadios1">Default radio</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="exampleRadios2">Second default radio</label>
+                </div>
+                <div class="categoryTitle">REGISTER AND SAVE TIME!</div>
+                <div class="categoryText">Register with us for future convenience</div>
+                <div class="categoryMinText">Fast and easy checkout</div>
+                <div class="categoryMinText">Easy access to your order history and status</div>
+                <button>CONTINUE</button>
+              </div>
+              <!--  -->
+              <div class="col-12 col-md-12 col-sm-12 col-lg-6 rightCol">
+                <div class="detailsRight">
+                  <div class="categoryTitle">Already registered?</div>
+                  <div class="categoryText">Please log in below</div>
+                  <form class="loginForm" action="">
+                    <label class="categoryTitle" for="">
+                      Email address
+                      <span>*</span>
+                    </label>
+                    <input type="email" />
+                    <label class="categoryTitle" for="">
+                      Password
+                      <span>*</span>
+                    </label>
+                    <input type="password" />
+                    <div class="requiredLabel">* Required fields</div>
+                    <button class="btnLog">Log in</button>
+                    <span class="formForgot">Forgot Password?</span>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div
+            class="navTitle"
+            id="headingOne"
+            aria-controls="collapseTwo"
+            data-target="#collapseTwo"
+            data-toggle="collapse"
+            aria-expanded="false"
+          >
+            Designer
+          </div>
+
+          <div id="collapseTwo" class="collapse navText" aria-labelledby="headingOne" data-parent="#accordionExample">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus illo laboriosam consequatur maxime
+          </div>
+        </div>
+        <div class="card">
+          <div
+            class="navTitle"
+            id="headingOne"
+            aria-controls="collapseThree"
+            data-target="#collapseThree"
+            data-toggle="collapse"
+            aria-expanded="false"
+          >
+            Brand
+          </div>
+
+          <div id="collapseThree" class="collapse navText" aria-labelledby="headingOne" data-parent="#accordionExample">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus illo laboriosam consequatur maxime
+            dolorum, reprehenderit ipsam esse culpa quibusdam impedit iste?
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="subscribeWrap">
+      <div class="subscribe container">
+        <div class="subscribe__card">
+          <div class="card__people">
+            <div class="card__img"><img src="images/reviewPerson.png" alt="" /></div>
+            <div class="card__description">
+              <div class="card__description-Top">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam
+                condimentum mattis neque sed pretium”
+              </div>
+              <div class="card__descriptionLow">
+                <div class="descriptionLow__name">Bin Burhan</div>
+                <div class="descriptionLow__from">Dhaka, Bd</div>
+              </div>
+              <div class="links">
+                <div class="link"></div>
+                <div class="link"></div>
+                <div class="link"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="subscribe__rightForm">
+          <div class="subscribe__right">
+            <div class="form__title">Subscribe</div>
+            <div class="form__text">FOR OUR NEWLETTER AND PROMOTION</div>
+            <div class="subscribe__form">
+              <input class="form__inp" type="text" placeholder="Enter Your Email" />
+              <button class="form__btn">Subscrib</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <footer>
+      <div class="brandFooter container">
+        <div class="row">
+          <div class="brandFooter__left col-lg-5 col-sm-12 col-md-12">
+            <div class="left__title">
+              BRAN
+              <span>D</span>
+            </div>
+            <div class="left__text">
+              Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate
+              multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of
+              processes and cross-unit partnerships.
+            </div>
+            <div class="left__text">
+              Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior
+              initiatives for wireless technologies. Dynamically optimize. progressive.
+            </div>
+          </div>
+          <div class="brandFooter__right col-lg-7 col-sm-12 col-md-12">
+            <div class="right__menu">
+              <h1 class="menu__title">COMPANY</h1>
+              <nav class="menu__text">
+                <a href="index.html">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">How It Works</a>
+                <a href="#">Contact</a>
+              </nav>
+            </div>
+            <div class="right__menu">
+              <h1 class="menu__title">INFORMATION</h1>
+              <nav class="menu__text">
+                <a href="#">Tearms & Condition</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">How to Buy</a>
+                <a href="#">How to Sell</a>
+                <a href="#">Promotion</a>
+              </nav>
+            </div>
+            <div class="right__menu">
+              <h1 class="menu__title">SHOP CATEGORY</h1>
+              <nav class="menu__text">
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Child</a>
+                <a href="#">Apparel</a>
+                <a href="#">Brows All</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-back">
+        <div class="footer-bottom container">
+          <div class="footer-bottom__text">2017 Brand All Rights Reserved.</div>
+          <nav class="bottom__links">
+            <div>
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div>
+              <i class="fab fa-pinterest-p"></i>
+            </div>
+            <div>
+              <i class="fab fa-google-plus-g"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
