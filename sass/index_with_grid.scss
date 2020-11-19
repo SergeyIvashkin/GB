@@ -485,7 +485,8 @@ img {
 // subscribe
 
 .subscribeWrap {
-  height: 440px;
+  padding: 100px 0;
+  // height: 440px;
   background: url('images/subscribe.jpg') no-repeat center, #ccc;
   background-blend-mode: overlay;
   background-size: cover;
@@ -647,13 +648,14 @@ img {
       letter-spacing: 0.025em;
       color: #898989;
       margin-top: 30px;
+      padding: 12px;
     }
   }
 
   &__right {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 30px;
+    // padding-left: 30px;
 
     .menu__title {
       font-size: 18px;
@@ -751,13 +753,12 @@ img {
   }
   .subscribeWrap {
     width: auto;
-    padding: 200px 0;
   }
   .subscribe {
     display: block;
   }
   .subscribe__rightForm {
-    height: 0;
+    // height: 0;
   }
   .card__description {
     width: auto;
@@ -794,6 +795,11 @@ img {
 
     nav {
       flex-direction: row;
+      flex-wrap: wrap;
+
+      a:not(:last-child) {
+        margin-right: 15px;
+      }
     }
   }
   .footer-bottom {
