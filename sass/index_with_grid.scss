@@ -129,7 +129,6 @@ body {
 }
 
 .search__input {
-  padding: 14px;
   font-size: 14px;
   line-height: 32px;
   font-weight: 300;
@@ -487,7 +486,7 @@ img {
 .subscribeWrap {
   padding: 100px 0;
   // height: 440px;
-  background: url('images/subscribe.jpg') no-repeat center, #ccc;
+  background: url('../images/subscribe.jpg') no-repeat, #ccc;
   background-blend-mode: overlay;
   background-size: cover;
 }
@@ -578,15 +577,14 @@ img {
   width: 100%;
   height: inherit;
   display: flex;
-
   justify-content: center;
-  align-items: center;
+  // align-items: center;
 }
 .subscribe__right {
   height: inherit;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
 }
 .subscribe__form {
@@ -598,7 +596,7 @@ img {
   width: 334px;
   border: none;
   outline: none;
-  padding: 0 28px;
+  padding: 0 20px;
   font-weight: 700;
   background-color: #e1e1e1;
   border-top-left-radius: 23px;
@@ -612,7 +610,7 @@ img {
   color: white;
   border: none;
   height: inherit;
-  padding: 0 20px;
+  padding: 0 15px;
   outline: none;
   cursor: pointer;
 }
@@ -757,9 +755,7 @@ img {
   .subscribe {
     display: block;
   }
-  .subscribe__rightForm {
-    // height: 0;
-  }
+
   .card__description {
     width: auto;
   }
