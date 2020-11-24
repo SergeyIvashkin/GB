@@ -1,6 +1,6 @@
 .newArrivalsWrap {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 62px 0;
   background-color: #f8f3f4;
 }
@@ -10,23 +10,23 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: inherit;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media (max-width: 400px) {
   .newArrivals {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -57,44 +57,27 @@
   color: #f16d7f;
 }
 
-/* modal*/
-.modelWrap .modelSlider {
-  position: relative;
-}
-
-.modelWrap .modelSlider img {
-  min-height: 777px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
-}
-
-.modelWrap .modelSlider .modelSliderLeftArrow,
-.modelWrap .modelSlider .modelSliderRightArrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.modelWrap .modelSliderLeftArrow,
+.modelWrap .modelSliderRightArrow {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: calc(50% - 47px / 2);
-  width: 47px;
+  width: 40px;
   height: 47px;
   color: #fff;
-  background: #d8d8d8;
+  background: #7472c2;
   cursor: pointer;
 }
 
-.modelWrap .modelSlider .modelSliderRightArrow {
+.modelWrap .modelSliderRightArrow {
   right: 0;
+  background-image: url('../images/lesson_3/arrow-right-solid.svg');
 }
-
+.modelWrap .modelSliderLeftArrow {
+  background-image: url('../images/lesson_3/arrow-left-solid.svg');
+}
 .modelWrap .modelDataWrap {
   max-width: 1140px;
   margin: 0 auto;
@@ -103,15 +86,15 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px solid #eaeaea;
   padding-top: 73px;
   position: relative;
-  top: -86px;
+  /* top: -86px; */
   background: #fff;
 }
 
@@ -119,7 +102,7 @@
   width: 620px;
   padding: 15px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media (max-width: 650px) {
@@ -176,8 +159,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -209,10 +192,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 537px;
   margin-left: auto;
   margin-right: auto;
@@ -228,8 +211,8 @@
   .modelWrap .modelDataWrap .modelData .modelProductOrder {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -293,7 +276,7 @@
 
 .modelWrap .modelDataWrap .modelData .modelProductOrderUnit input {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .modelWrap .modelDataWrap .modelData .modelProductOrder button {
@@ -308,11 +291,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .modelWrap .modelDataWrap .modelData .modelProductOrder button img {
@@ -338,23 +321,23 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media (max-width: 600px) {
   .alsoLike .featuredItems {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -365,7 +348,7 @@
 
 .alsoLike .featuredItem:hover {
   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
 }
 
 .alsoLike .featuredItem:nth-child(n + 5) {
@@ -390,11 +373,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .alsoLike .featuredBuy button {
@@ -408,11 +391,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -425,9 +408,9 @@
   display: block;
   height: inherit;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
 }
 
 .alsoLike .featuredNameAndPrice {
@@ -451,3 +434,55 @@
   text-transform: uppercase;
 }
 /*# sourceMappingURL=toCheck7_single.css.map */
+
+/* animated */
+
+.w {
+  margin: 0 auto;
+  white-space: nowrap;
+  max-width: 1200px;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(66, 66, 66, 0.5) url('../images/lesson_3/woman__Inet.jpeg') repeat fixed;
+  background-position: 50% 100%;
+  background-size: cover;
+  position: relative;
+  z-index: 5;
+  font-size: 0;
+}
+
+.i {
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  z-index: 4;
+  padding: 2px;
+  transition: all 1.3s ease-in-out;
+  background: rgba(66, 66, 66, 0.5) url('../images/lesson_3/slider1.jpg') repeat fixed;
+  background-size: cover;
+  background-position: 50% 100%;
+  border-radius: 0%;
+}
+.i:hover {
+  transition: all 0s linear;
+  opacity: 0;
+}
+
+.h {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  top: 35px;
+  font-size: 40px;
+  color: beige;
+  text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
+}
