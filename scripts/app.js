@@ -9,7 +9,7 @@ jQuery(document).ready(function () {
 
   jQuery('.box__content').addClass('hidden').viewportChecker({
     classToAdd: 'animated  pulse',
-    offset: 300,
+    offset: 400,
     classToRemove: 'hidden',
   });
 

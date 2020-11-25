@@ -449,7 +449,7 @@
   right: 0;
   bottom: 0;
   overflow: hidden;
-  background: rgba(66, 66, 66, 0.5) url('../images/lesson_3/woman__Inet.jpeg') repeat fixed;
+  background: rgba(66, 66, 66, 0.5) url('../images/lesson_3/woman__Inet.jpeg') repeat;
   background-position: 50% 100%;
   background-size: cover;
   position: relative;

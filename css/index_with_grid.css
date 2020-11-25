@@ -932,4 +932,59 @@ img {
     height: auto;
   }
 }
+
+/*animated */
+.hidden {
+  opacity: 0;
+}
+
+.one {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.two {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.three {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.four {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.five {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.six {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.seven {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.one__menu {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.two__menu {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.three__menu {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
 /*# sourceMappingURL=index_with_grid.css.map */

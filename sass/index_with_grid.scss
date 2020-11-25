@@ -810,3 +810,39 @@ img {
     height: auto;
   }
 }
+/*animated */
+
+.hidden {
+  opacity: 0;
+}
+.one {
+  animation-delay: 0.1s;
+}
+.two {
+  animation-delay: 0.2s;
+}
+.three {
+  animation-delay: 0.3s;
+}
+.four {
+  animation-delay: 0.4s;
+}
+
+.five {
+  animation-delay: 0.5s;
+}
+.six {
+  animation-delay: 0.7s;
+}
+.seven {
+  animation-delay: 0.8s;
+}
+.one__menu {
+  animation-delay: 0.1s;
+}
+.two__menu {
+  animation-delay: 0.2s;
+}
+.three__menu {
+  animation-delay: 0.3s;
+}
