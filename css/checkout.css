@@ -1,0 +1,126 @@
+.checkout {
+  margin: 90px auto;
+}
+
+.navTitle {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 40px;
+}
+
+.navTitle:hover {
+  color: #f16d7f;
+  cursor: pointer;
+}
+
+.leftCol {
+  padding: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.leftCol button {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 50px;
+  background: none;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.categoryTitle {
+  margin-bottom: 15px;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.categoryText {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b2b2;
+  margin-bottom: 30px;
+}
+
+.form-check-label {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.categoryMinText {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b2b2;
+  background: url("../images/arrows.png") no-repeat left center;
+  padding-left: 12px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.detailsRight {
+  padding: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.detailsRight label {
+  width: 100%;
+}
+
+.detailsRight input {
+  width: 80%;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  background: #dad48a;
+}
+
+.detailsRight span {
+  color: red;
+}
+
+.requiredLabel {
+  color: red;
+  margin-bottom: 30px;
+}
+
+.btnLog {
+  border: 1px solid #eaeaea;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: none;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+
+.formForgot {
+  margin-left: 30px;
+  color: #222222 !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (max-width: 990px) {
+  .detailsRight,
+  .leftCol {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=checkout.css.map */
