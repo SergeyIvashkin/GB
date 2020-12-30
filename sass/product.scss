@@ -261,3 +261,62 @@ $cardColor: #f16d7f;
     color: #6f6e6e;
   }
 }
+/*animated*/
+
+.box {
+  position: relative;
+}
+.box::after,
+.box::before {
+  content: '';
+  position: absolute;
+  opacity: 1;
+  transition: all 0.4s ease-out;
+  top: 4%;
+  bottom: 32%;
+  left: 1rem;
+  right: 1rem;
+}
+.box::before {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  transform: scale(0, 1);
+}
+.box::after {
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  transform: scale(1, 0);
+}
+.box:hover::before {
+  background: rgba(0, 0, 0, 1);
+  transform: scale(1.05, 1);
+}
+.box:hover::after {
+  transform: scale(1, 1.05);
+}
+.box .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  opacity: 0;
+}
+.box:hover .content {
+  opacity: 1;
+}
+.box .content h*,
+.box .content p {
+  padding: 10px;
+  font-size: 24px;
+}
+.box:hover img {
+  opacity: 0.5;
+}
